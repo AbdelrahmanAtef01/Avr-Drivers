@@ -9,7 +9,7 @@ This repository is here to help you with all the Atmega32 ready-to-use drivers a
 
 ## 📑 Table of Contents
 - [Introduction](#avr-drivers)
-- [Contents](#contents)
+- [Repo Contents](#repo-contents)
 - [Installation](#installation)
 - [Libraries Layer](#libraries-layer)
 - [MCAL Layer](#mcal-layer)
@@ -17,7 +17,7 @@ This repository is here to help you with all the Atmega32 ready-to-use drivers a
 - [RTOS Layer](#rtos-layer)
 - [Contributing](#contributing)
 
-## 📦 Contents
+## 📦 Repo Contents
 There are 4 layers added to this repo:
 1. **Libraries** layer 📚: Contains all the standardization files.
 2. **MCAL** (Microcontroller Abstraction Layer) 🔌: Handles almost all controller-related peripherals.
@@ -70,22 +70,22 @@ git clone https://github.com/AbdelrahmanAtef01/AVR-Drivers.git
 > **Note**: These drivers were developed during a learning process and include various configuration methods, different interrupt handling techniques (polling and actual ISR), etc. They are all working and tested but may not follow the best architectural practices yet. Contributions and modifications are welcome to help us build a powerful, well-architected resource. 👀
 
 ### 🤝 Contributing
-Contributions are welcome! If you would like to contribute:
+Contributions are welcome! Here’s how you can help:
 
-1. Fork the repository.
-2. Create a new branch.
+1. **Fork** the repository to create your own copy.
+2. Create a **new branch** for your changes.
 ```bash
 git checkout -b feature-branch
 ```
-3. Make your changes and test them thoroughly.
-4. Commit your changes.
+3. Make your modifications and test them.
+4. **Commit** your changes with a descriptive message.
 ```bash
 git commit -m 'Add new feature'
 ```
-5. Push to the branch.
+5. **Push** your changes to your forked repository.
 ```bash
 git push origin feature-branch
 ```
-6. Open a pull request.
+6. Open a **Pull Request** to submit your changes.
 
 Please open an issue to discuss your ideas before creating significant changes. Together, we can improve and expand this resource to benefit the whole community! 🌍
