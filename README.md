@@ -1,4 +1,4 @@
-# AVR-Drivers
+# AVR-Drivers  🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AbdelrahmanAtef01/AVR-Drivers)
 ![GitHub issues](https://img.shields.io/github/issues/AbdelrahmanAtef01/AVR-Drivers)
@@ -7,7 +7,7 @@
 
 This repository is here to help you with all the Atmega32 ready-to-use drivers across various layers for your projects. All you have to do is determine which driver is needed for your application.
 
-## Table of Contents
+## 📑 Table of Contents
 - [Introduction](#avr-drivers)
 - [Contents](#contents)
 - [Installation](#installation)
@@ -17,27 +17,27 @@ This repository is here to help you with all the Atmega32 ready-to-use drivers a
 - [RTOS Layer](#rtos-layer)
 - [Contributing](#contributing)
 
-## Contents
+## 📦 Contents
 There are 4 layers added to this repo:
-1. **Libraries** layer: Contains all the standardization files.
-2. **MCAL** (Microcontroller Abstraction Layer): Handles almost all controller-related peripherals.
-3. **HAL** (Hardware Abstraction Layer): Manages sensors and external hardware.
-4. **RTOS** layer: Supports task creation and applying RTOS to your project.
+1. **Libraries** layer 📚: Contains all the standardization files.
+2. **MCAL** (Microcontroller Abstraction Layer) 🔌: Handles almost all controller-related peripherals.
+3. **HAL** (Hardware Abstraction Layer) 🖧: Manages sensors and external hardware.
+4. **RTOS** layer ⏱️: Supports task creation and applying RTOS to your project.
 
 ---
 
-## Installation
+##  🛠️ Installation
 To use these drivers in your project, clone the repository and include the desired drivers in your build.
 
 ```bash
 git clone https://github.com/AbdelrahmanAtef01/AVR-Drivers.git
 ```
 
-### Libraries Layer
+### Libraries Layer 📚
 - `Std Types File`: Contains all embedded standard types.
 - `Bit Math File`: Includes bit handling methods.
 
-### MCAL Layer
+### MCAL Layer 🔌
 - `DIO Driver`: Manages digital input/output.
 - `ADC Driver`: Handles analog inputs.
 - `Timers’ Driver`: Supports all three timers for counters, timers, or PWM generation.
@@ -48,7 +48,7 @@ git clone https://github.com/AbdelrahmanAtef01/AVR-Drivers.git
 - `Global Interrupt Driver`: Manages global interrupts.
 - `External Interrupt Driver`: Handles external interrupts.
 
-### HAL Layer
+### HAL Layer 🖧
 - `LED Handler`: Controls LED usage.
 - `LCD Handler`: Manages LCD usage.
 - `Switch Handler`: Reads switch inputs.
@@ -60,7 +60,7 @@ git clone https://github.com/AbdelrahmanAtef01/AVR-Drivers.git
 - `Motor Handler`: Controls motors.
 - `Stepper Motor Handler`: Manages stepper motor control.
 
-### RTOS Layer
+### RTOS Layer ⏱️
 - **src**: Contains RTOS source code files.
 - **include**: Contains headers for all RTOS components.
 - **API**: Provides files for including components, drivers, creating tasks, and more.
@@ -69,7 +69,7 @@ git clone https://github.com/AbdelrahmanAtef01/AVR-Drivers.git
 
 > **Note**: These drivers were developed during a learning process and include various configuration methods, different interrupt handling techniques (polling and actual ISR), etc. They are all working and tested but may not follow the best architectural practices yet. Contributions and modifications are welcome to help us build a powerful, well-architected resource. 👀
 
-### Contributing
+### 🤝 Contributing
 Contributions are welcome! If you would like to contribute:
 
 1. Fork the repository.
@@ -88,4 +88,4 @@ git push origin feature-branch
 ```
 6. Open a pull request.
 
-Please open an issue to discuss your ideas before creating significant changes. Together, we can improve and expand this resource to benefit the whole community!
+Please open an issue to discuss your ideas before creating significant changes. Together, we can improve and expand this resource to benefit the whole community! 🌍
